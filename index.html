@@ -3,20 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="drawCanvas.js"></script>
+    <script src="main.js" defer></script>
     <link rel="stylesheet" type="text/css" href="gameStyle.css">
 
-    <title>Document</title>
+    <title>Iron's Embrace</title>
     
 
 </head>
-<body class="main">
-    <div class="playSpace">
-        <button class="testButton" type="button">Does it Work!?</button>
-        <canvas id="canvas">
-            
-        </canvas>
-    </div>
+<body>
+    <main>
+        <!---This chunk creates the title screen.--->
+        <section id="titleScreen">
+            <div>
+                <h1 class="titleHeading">Iron's Embrace</h1>
+            </div>
+            <div>
+                <p class="welcomePrompt">Descend into Iron...</p>
+            </div>
+
+        </section>
+
+        <!---This will create the character creation menu.-->
+        <section id="characterCreation">
+            <form id="playerName">
+                <h1 class="playerNamePrompt">Who are you?</h1>
+                <input type="text" id="inputPlayerName" autocomplete="off">
+                <button type="submit" class="playerNameButton">Continue</button>
+            </form>
+        </section>
+        
+    </main>
     
 </body>
 </html>
