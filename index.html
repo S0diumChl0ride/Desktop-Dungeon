@@ -7,32 +7,19 @@
     <link rel="stylesheet" type="text/css" href="gameStyle.css">
 
     <title>Iron's Embrace</title>
-    
-
 </head>
 <body>
-    <main>
         <!---This chunk creates the title screen.--->
-        <section id="titleScreen">
-            <div>
-                <h1 class="titleHeading">Iron's Embrace</h1>
-            </div>
-            <div>
-                <p class="welcomePrompt">Descend into Iron...</p>
-            </div>
-
-        </section>
-
-        <!---This will create the character creation menu.-->
-        <section id="characterCreation">
-            <form id="playerName">
-                <h1 class="playerNamePrompt">Who are you?</h1>
-                <input type="text" id="inputPlayerName" autocomplete="off">
-                <button type="submit" class="playerNameButton">Continue</button>
-            </form>
-        </section>
-        
-    </main>
-    <script src="main.js" defer></script>
+        <canvas class="mainCanvas">
+            <section id="titleScreen">
+                <div>
+                    <h1 class="titleHeading">Iron's Embrace</h1>
+                </div>
+                <div>
+                    <p class="welcomePrompt">Descend into Iron...</p>
+                </div>
+            </section>
+        </canvas>
+    <script src="main.js"></script>
 </body>
 </html>

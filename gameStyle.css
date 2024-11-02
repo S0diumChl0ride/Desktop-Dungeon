@@ -23,8 +23,12 @@ body{
     justify-content: center;
     align-items: center;
     background-color: #1f1f1f;
-    
-    color: white;
+}
+
+.mainCanvas{
+    border: 1px solid white;
+    margin-top: 2.5em;
+    background: linear-gradient(360deg, #030303 10%, #1f1f1f 200%);
 }
 
 .titleHeading{
@@ -52,17 +56,6 @@ body{
     background: linear-gradient(360deg, #030303 10%, #1f1f1f 200%);
 }
 
-#playerName{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 24rem;
-    font-size: 1.5rem;
-}
-
-.playerNamePrompt{
-    padding-bottom: 1rem;
-}
 
 
 
